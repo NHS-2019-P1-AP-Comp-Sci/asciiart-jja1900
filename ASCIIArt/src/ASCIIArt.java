@@ -23,5 +23,25 @@ public class ASCIIArt {
 		System.out.println("THIS IS MY ASCII ART!!!!");
 		System.out.println("THIS IS MY ASCII ART!!!!");
 		System.out.println("THIS IS MY ASCII ART!!!!");
+		ears();
+		face();
+		tailandfeet();
+		grass();
+		description();
+	}
+	public static void ears() {
+		System.out.println("(\\)(/)");
+	}
+	public static void face() {
+		System.out.println("( . .)");
+	}
+	public static void tailandfeet() {
+		System.out.println("c(')(')");
+	} 
+	public static void grass() {
+		System.out.println("^^^^^^^^^");
+	}
+	public static void description() {
+		System.out.println("A rabbit sitting on grass.");
 	}
 }
